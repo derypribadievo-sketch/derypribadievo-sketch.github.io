@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rclone Pribadi</title>
+  <meta name="description" content="Rclone Pribadi is a personal, non-commercial tool for backing up and syncing the owner's own files with their own Google Drive account using the open-source program rclone.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 42rem; margin: 0 auto; padding: 2rem 1rem; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 2rem; }
+    footer { margin-top: 3rem; font-size: 0.9rem; opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rclone Pribadi</h1>
+    <p>A personal, non-commercial tool for backing up and syncing files with my own Google Drive account.</p>
+  </header>
+
+  <main>
+    <h2>What this app does</h2>
+    <p>
+      Rclone Pribadi is the OAuth client used by my own installation of
+      <a href="https://rclone.org/">rclone</a>, an open-source command-line program for managing files on cloud storage.
+      It lets me copy, back up and synchronize files between my own computer and my own Google Drive account.
+    </p>
+
+    <h2>How it uses Google Drive</h2>
+    <p>When I sign in, the app asks for permission to:</p>
+    <ul>
+      <li>list, read, create, modify and delete files in the Google Drive account I sign in with, so that backups and synchronization can work;</li>
+      <li>read file metadata (such as names, sizes and modification times), so that unchanged files are not transferred again.</li>
+    </ul>
+    <p>
+      Files are transferred directly between my computer and Google Drive. This app does not run any server and does not
+      collect, store or forward Google user data to anyone else.
+    </p>
+
+    <h2>Who uses it</h2>
+    <p>
+      The app is used only by its owner, and possibly a few people known personally to the owner. It is not offered to the
+      general public, and it has no commercial purpose.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="privacy.html">Privacy Policy</a> to see how Google user data is accessed, used, stored and protected.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this app: <a href="mailto:[YOUR-EMAIL]">[YOUR-EMAIL]</a></p>
+  </main>
+
+  <footer>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
